@@ -1,0 +1,7 @@
+public class task3{
+    public static void name(string)[]args {
+        int a=20;
+        int b=100;
+        System.out.println("a+b="+(a+b));
+    }
+}
