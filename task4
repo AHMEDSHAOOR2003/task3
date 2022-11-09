@@ -1,0 +1,22 @@
+import java.utitl.*
+public class task4{
+     public static void name(string[]args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.print("Enter the marks 10TH:");
+        int 10TH =sc.nextInt();
+        System.out.print("Enter the marks 12TH:");
+        int 12TH =sc.nextInt();
+        System.out.print("Enter the test score:");
+        int test =sc.nextInt();
+        double 10THMarks =(10TH/850.O)*100;
+        double total10THMarks=10THMarks*0.1;
+        double 12THMarks =(12TH/1100.0)*100;
+        double total12THMarks=12THMarks*0.2;
+        double testmarks =test*0.7
+        doouble p =total10THMarks+total12THMarks+testmarks;
+        System.out.println("Total percentage:"+p);
+
+
+
+    }
+}
